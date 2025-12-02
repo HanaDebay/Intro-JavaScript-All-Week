@@ -70,3 +70,4 @@ console.log(typeof age); // number
 console.log(typeof ismarried); // boolean
 console.log(typeof address); // undefined
 console.log(typeof salary); // object //null values in js are typeof object 
+
