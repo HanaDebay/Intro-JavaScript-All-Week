@@ -343,10 +343,10 @@ console.log("Beans" !== "Maize");
 console.log("=================");
 console.log(produce1 !== produce2);
 
-if(produce1 !== produce2){
-  console.log("They are strictly equal")
-}else{
-  console.log("They are not strictly equal ")
+if (produce1 !== produce2) {
+  console.log("They are strictly equal");
+} else {
+  console.log("They are not strictly equal ");
 }
 
 // 50. What Boolean value does 10 < 5 return?
@@ -359,14 +359,23 @@ if(produce1 !== produce2){
 // 52. Write a logical expression that checks if both stock > 0 AND price > 0 are true.
 let stock = 100;
 let price = 50;
-console.log(stock > 0 && price > 0) //true
+console.log(stock > 0 && price > 0); //true
 
 // 53. What does the OR (||) operator return?
-// || returns true  if at least one condition is true. 
+// || returns true  if at least one condition is true.
 
 // 54. Write a logical expression using OR to check if a produce source is either "Individual Dealer" OR "KGL Farm".
-let produceSource = "Individual Dealer" || "KGL Far"
-produceSource = "Individual Dealer"
-if(produceSource === "IndividualDealer" || produceSource === "KGLFar" ){
-  console.log("Yes")
-}else("NO")
+let produceSource = "Individual Dealer" || "KGL Far";
+produceSource = "Individual Dealer";
+if (produceSource === "IndividualDealer" || produceSource === "KGLFar") {
+  console.log("Yes");
+} else "NO";
+
+// 55. What does the NOT (!) operator do?
+// NOT operator inverts a value. example true to false or equal to not equal
+
+//56. Write code using the NOT operator to check if a string is NOT empty.
+let string = "string";
+console.log(!(string === "")); //true
+
+// Date Object
