@@ -651,6 +651,11 @@ console.log("Before Revers:", products)
 console.log("After Reverse:",products.reverse())
 
 // 99. How do you combine two arrays into one?
+//to combine two arrays we use .concat() method 
 
 // 100. Write code to merge branch1Sales and branch2Sales arrays into a totalSales array using the
 // appropriate method.
+let branch1Sales = ["Maize", "Beans", "Soyabeans"];
+let branch2Sales = ["Cow peas", "Rice", "Strawberry"]
+let totalSales = branch1Sales.concat(branch2Sales);
+console.log(totalSales);

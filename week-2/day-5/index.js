@@ -36,7 +36,7 @@ let priceList = [
     [23, "Abdalla"]
 ]
 const price = new Map(priceList)
-console.log(price)
+console.log("Map Price:",price)
 
 price.set("Rice", 5000)
 console.log(price)
